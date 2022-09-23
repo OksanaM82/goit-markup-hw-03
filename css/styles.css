@@ -312,7 +312,7 @@ letter-spacing: 0.03em;
         .section-portfolio .portfolio-btn:focus {background-color: var(--button-hero-focus-color);
               color: var(--hero-text-color);}
 
-              .portfolio-titel {padding-top: 20px;
+              .portfolio-titel {margin-top: 20px;
                 margin-left: 24px;
     
                 font-weight: 700;
