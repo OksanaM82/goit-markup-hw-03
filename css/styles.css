@@ -285,7 +285,8 @@ color: var(--footer-contacts-color);}
             border: 0px;}
         .btn-item {padding: 6px 22px;
             border-radius: 4px;
-            border: 0px;}
+            border-style: none;
+        }
         .portfolio-btn {
             
             font-family: inherit;
