@@ -307,13 +307,14 @@ letter-spacing: 0.03em;
             width: calc(100%-60px)/3;
         }
         .portfolio-card {
-            border: 1px solid #EEEEEE
+            border: 1px solid #EEEEEE;
+            border-top: none;
         }
         .section-portfolio .portfolio-btn:hover,
         .section-portfolio .portfolio-btn:focus {background-color: var(--button-hero-focus-color);
               color: var(--hero-text-color);}
 
-              .portfolio-titel {margin-top: 20px;
+              .portfolio-titel {padding-top: 20px;
                 margin-left: 24px;
     
                 font-weight: 700;
