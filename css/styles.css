@@ -41,7 +41,8 @@ color: inherit;}
     a{text-decoration: none;}
     button {cursor: pointer;
     display: block;}
-    address{font-style: normal;}
+    address{font-style: normal;
+    margin-top: 20px;}
     body { background-color: var(--primery-background-color); 
         color: var(--primary-text-color) ;
         font-family: var(--primary-font-family);
@@ -194,7 +195,8 @@ justify-content: center;}
  { margin-bottom: 10px;
     font-weight: 700;
 line-height: 1.14;
-color: var(--title-text-color)}
+color: var(--title-text-color);
+font-size: 14px;}
 .section-text-values
 {line-height: 1.7;}
     /* Чим ми займаємось */
@@ -257,7 +259,6 @@ color: var(--title-text-color)
         padding-bottom: 60px;
     } */
     .footer-list{
-        margin-top: 20px;
     }
     .logo-studio-footer {
         font-family: var( --logo-font-family);
@@ -326,16 +327,15 @@ letter-spacing: 0.03em;
             width: 370px;
         }
         .portfolio-card {
+            padding: 20px 24px;
             border: 1px solid var(--card-border-color);
-            border-top-width: 0px;
+            border-top: 0px;
         }
         .section-portfolio .portfolio-btn:hover,
         .section-portfolio .portfolio-btn:focus {background-color: var(--button-hero-focus-color);
               color: var(--hero-text-color);}
 
-              .portfolio-titel {padding-top: 20px;
-                margin-left: 24px;
-    
+              .portfolio-titel {
                 font-weight: 700;
             font-size: 18px;
             line-height: 2;
@@ -343,8 +343,6 @@ letter-spacing: 0.03em;
         color: var(--title-text-color);}
         .portfolio-item {
             margin-top: 4px;
-            margin-left: 24px;
-
             font-size: 16px;
             line-height: 1.88;
             color: var(--primary-text-color);}
